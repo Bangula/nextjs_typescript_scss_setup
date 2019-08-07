@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/styles.chunk.css","sources":["webpack:///./scss/styles.scss"],"sourcesContent":["h1 {\n  color: blue; }\n\na {\n  color: orange;\n  padding: 30px; }\n"],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;;","sourceRoot":""}
