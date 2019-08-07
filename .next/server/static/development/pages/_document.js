@@ -980,10 +980,10 @@ module.exports = __webpack_require__(/*! ./dist/pages/_document */ "./node_modul
 
 /***/ }),
 
-/***/ "./pages/_document.js":
-/*!****************************!*\
-  !*** ./pages/_document.js ***!
-  \****************************/
+/***/ "./pages/_document.tsx":
+/*!*****************************!*\
+  !*** ./pages/_document.tsx ***!
+  \*****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1014,13 +1014,13 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
 /***/ }),
 
 /***/ 0:
-/*!*********************************************!*\
-  !*** multi private-next-pages/_document.js ***!
-  \*********************************************/
+/*!**********************************************!*\
+  !*** multi private-next-pages/_document.tsx ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! private-next-pages/_document.js */"./pages/_document.js");
+module.exports = __webpack_require__(/*! private-next-pages/_document.tsx */"./pages/_document.tsx");
 
 
 /***/ }),

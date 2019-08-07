@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\admin\\admin.js"],{
 
-/***/ "./components/Navbar.js":
-/*!******************************!*\
-  !*** ./components/Navbar.js ***!
-  \******************************/
+/***/ "./components/Navbar.tsx":
+/*!*******************************!*\
+  !*** ./components/Navbar.tsx ***!
+  \*******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5635,20 +5635,20 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fadmin%2Fadmin&absolutePagePath=C%3A%5CUsers%5CQuantox%5Cprojekti%5Cnext_proj%5Ctest1%5Cpages%5Cadmin%5Cadmin.js!./":
-/*!**********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fadmin%2Fadmin&absolutePagePath=C%3A%5CUsers%5CQuantox%5Cprojekti%5Cnext_proj%5Ctest1%5Cpages%5Cadmin%5Cadmin.js ***!
-  \**********************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fadmin%2Fadmin&absolutePagePath=C%3A%5CUsers%5CQuantox%5Cprojekti%5Cnext_proj%5Ctest1%5Cpages%5Cadmin%5Cadmin.tsx!./":
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fadmin%2Fadmin&absolutePagePath=C%3A%5CUsers%5CQuantox%5Cprojekti%5Cnext_proj%5Ctest1%5Cpages%5Cadmin%5Cadmin.tsx ***!
+  \***********************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
     (window.__NEXT_P=window.__NEXT_P||[]).push(["/admin/admin", function() {
-      var page = __webpack_require__(/*! ./pages/admin/admin.js */ "./pages/admin/admin.js")
+      var page = __webpack_require__(/*! ./pages/admin/admin.tsx */ "./pages/admin/admin.tsx")
       if(true) {
-        module.hot.accept(/*! ./pages/admin/admin.js */ "./pages/admin/admin.js", function() {
+        module.hot.accept(/*! ./pages/admin/admin.tsx */ "./pages/admin/admin.tsx", function() {
           if(!next.router.components["/admin/admin"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/admin/admin.js */ "./pages/admin/admin.js")
+          var updatedPage = __webpack_require__(/*! ./pages/admin/admin.tsx */ "./pages/admin/admin.tsx")
           next.router.update("/admin/admin", updatedPage.default || updatedPage)
         })
       }
@@ -10875,10 +10875,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/admin/admin.js":
-/*!******************************!*\
-  !*** ./pages/admin/admin.js ***!
-  \******************************/
+/***/ "./pages/admin/admin.tsx":
+/*!*******************************!*\
+  !*** ./pages/admin/admin.tsx ***!
+  \*******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10888,7 +10888,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Navbar */ "./components/Navbar.js");
+/* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Navbar */ "./components/Navbar.tsx");
 
 
 
@@ -10902,7 +10902,7 @@ var Admin = function Admin() {
     className: "jsx-3418668772"
   }, "This is Admin page")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "3418668772"
-  }, "h1.jsx-3418668772{text-align:center;color:lightblue;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUXVhbnRveFxccHJvamVrdGlcXG5leHRfcHJvalxcdGVzdDFcXHBhZ2VzXFxhZG1pblxcYWRtaW4uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBVVMsQUFHK0Isa0JBQ0YsZ0JBQ2xCIiwiZmlsZSI6IkM6XFxVc2Vyc1xcUXVhbnRveFxccHJvamVrdGlcXG5leHRfcHJvalxcdGVzdDFcXHBhZ2VzXFxhZG1pblxcYWRtaW4uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTmF2YmFyIGZyb20gXCIuLi8uLi9jb21wb25lbnRzL05hdmJhclwiO1xyXG5cclxuY29uc3QgQWRtaW4gPSAoKSA9PiB7XHJcbiAgcmV0dXJuIChcclxuICAgIDxkaXY+XHJcbiAgICAgIDxOYXZiYXIgLz5cclxuICAgICAgPGRpdj5cclxuICAgICAgICA8aDE+VGhpcyBpcyBBZG1pbiBwYWdlPC9oMT5cclxuICAgICAgPC9kaXY+XHJcbiAgICAgIDxzdHlsZSBqc3g+XHJcbiAgICAgICAge2BcclxuICAgICAgICAgIGgxIHtcclxuICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgICAgICAgICBjb2xvcjogbGlnaHRibHVlO1xyXG4gICAgICAgICAgfVxyXG4gICAgICAgIGB9XHJcbiAgICAgIDwvc3R5bGU+XHJcbiAgICA8L2Rpdj5cclxuICApO1xyXG59O1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgQWRtaW47XHJcbiJdfQ== */\n/*@ sourceURL=C:\\Users\\Quantox\\projekti\\next_proj\\test1\\pages\\admin\\admin.js */"));
+  }, "h1.jsx-3418668772{text-align:center;color:lightblue;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcUXVhbnRveFxccHJvamVrdGlcXG5leHRfcHJvalxcdGVzdDFcXHBhZ2VzXFxhZG1pblxcYWRtaW4udHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVVTLEFBRytCLGtCQUNGLGdCQUNsQiIsImZpbGUiOiJDOlxcVXNlcnNcXFF1YW50b3hcXHByb2pla3RpXFxuZXh0X3Byb2pcXHRlc3QxXFxwYWdlc1xcYWRtaW5cXGFkbWluLnRzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBOYXZiYXIgZnJvbSBcIi4uLy4uL2NvbXBvbmVudHMvTmF2YmFyXCI7XHJcblxyXG5jb25zdCBBZG1pbiA9ICgpID0+IHtcclxuICByZXR1cm4gKFxyXG4gICAgPGRpdj5cclxuICAgICAgPE5hdmJhciAvPlxyXG4gICAgICA8ZGl2PlxyXG4gICAgICAgIDxoMT5UaGlzIGlzIEFkbWluIHBhZ2U8L2gxPlxyXG4gICAgICA8L2Rpdj5cclxuICAgICAgPHN0eWxlIGpzeD5cclxuICAgICAgICB7YFxyXG4gICAgICAgICAgaDEge1xyXG4gICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICAgICAgICAgIGNvbG9yOiBsaWdodGJsdWU7XHJcbiAgICAgICAgICB9XHJcbiAgICAgICAgYH1cclxuICAgICAgPC9zdHlsZT5cclxuICAgIDwvZGl2PlxyXG4gICk7XHJcbn07XHJcblxyXG5leHBvcnQgZGVmYXVsdCBBZG1pbjtcclxuIl19 */\n/*@ sourceURL=C:\\Users\\Quantox\\projekti\\next_proj\\test1\\pages\\admin\\admin.tsx */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Admin);
@@ -10910,13 +10910,13 @@ var Admin = function Admin() {
 /***/ }),
 
 /***/ 3:
-/*!**************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fadmin%2Fadmin&absolutePagePath=C%3A%5CUsers%5CQuantox%5Cprojekti%5Cnext_proj%5Ctest1%5Cpages%5Cadmin%5Cadmin.js ***!
-  \**************************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fadmin%2Fadmin&absolutePagePath=C%3A%5CUsers%5CQuantox%5Cprojekti%5Cnext_proj%5Ctest1%5Cpages%5Cadmin%5Cadmin.tsx ***!
+  \***************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fadmin%2Fadmin&absolutePagePath=C%3A%5CUsers%5CQuantox%5Cprojekti%5Cnext_proj%5Ctest1%5Cpages%5Cadmin%5Cadmin.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fadmin%2Fadmin&absolutePagePath=C%3A%5CUsers%5CQuantox%5Cprojekti%5Cnext_proj%5Ctest1%5Cpages%5Cadmin%5Cadmin.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fadmin%2Fadmin&absolutePagePath=C%3A%5CUsers%5CQuantox%5Cprojekti%5Cnext_proj%5Ctest1%5Cpages%5Cadmin%5Cadmin.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fadmin%2Fadmin&absolutePagePath=C%3A%5CUsers%5CQuantox%5Cprojekti%5Cnext_proj%5Ctest1%5Cpages%5Cadmin%5Cadmin.tsx!./");
 
 
 /***/ }),
